@@ -1,0 +1,23 @@
+{
+  "name": "typescriptcourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValadaRP/TypeScriptCourse.git"
+  },
+  "author": "Piotr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValadaRP/TypeScriptCourse/issues"
+  },
+  "homepage": "https://github.com/ValadaRP/TypeScriptCourse#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
