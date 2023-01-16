@@ -1,17 +1,7 @@
-function add(n1, n2) {
-    return n1 + n2;
+var userInput;
+var userName;
+userInput = 5;
+userInput = "MAx";
+if (typeof userInput === "string") {
+    userName = userInput;
 }
-function printResult(num) {
-    console.log('Result:   ' + num);
-}
-function addAndHandle(n1, n2, cb) {
-    var result = n1 + n2;
-    cb(result);
-}
-printResult(add(5, 12));
-var combinedValues;
-combinedValues = add;
-// combinedValues = printResult;
-addAndHandle(10, 20, function (result) {
-    console.log(result);
-});
