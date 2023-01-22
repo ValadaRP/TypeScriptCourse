@@ -20,15 +20,15 @@
 
 // console.log(add(5,5));
 
-// const hobbies = ["sport", "cooking"];
+const hobbies = ["sport", "cooking"];
 // const activeHobbies = ["hiking", ...hobbies];
 
 // activeHobbies.push(...hobbies);
 
-// const person = {
-//     name: "piotr",
-//     age: 30
-// }
+const person = {
+    firstName: "piotr",
+    age: 30
+}
 
 // const copiedPerson = {...person};
 
@@ -41,3 +41,9 @@ const add = (...numbers: number[]) => {
 
 const addedNumbers = add(5,4,3,2,1.5);
 console.log(addedNumbers);
+
+const [hobby1, hobby2, ...remainingHobbies] = hobbies;
+
+const { firstName: userName, age } = person;
+
+console.log(userName, age, person);
