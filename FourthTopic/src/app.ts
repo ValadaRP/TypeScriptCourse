@@ -61,3 +61,4 @@ textStorage.addItem('Piotr');
 textStorage.addItem('Karol');
 textStorage.removeItem('Karol');
 
+ 
