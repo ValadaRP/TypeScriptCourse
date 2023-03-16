@@ -16,7 +16,6 @@ for(const prod of loadedProducts){
 const newProd = new Product('', -244);
 validate(newProd).then(errors => {
     if(errors.length > 0){
-
         console.log(errors);
     }else{
         console.log(newProd.getInformation());
